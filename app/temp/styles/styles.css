@@ -462,7 +462,7 @@ img {
 
 .large-hero {
   position: relative;
-    }
+  }
 
 .large-hero__text-content {
     position: absolute;
@@ -484,16 +484,22 @@ img {
 @media (min-width: 530px) {
 
 .large-hero__title {
-        font-size: 2rem
+        font-size: 2.0rem
     }
   }
 
-.large-hero__title media (min-width: 800px) {
-        font-size: 3.2rem;
+@media (min-width: 800px) {
+
+.large-hero__title {
+        font-size: 3.2rem
+    }
   }
 
-.large-hero__title media (min-width: 1200px) {
-        font-size: 4.8rem;
+@media (min-width: 1200px) {
+
+.large-hero__title {
+        font-size: 4.8rem
+    }
   }
 
 .large-hero__subtitle {
@@ -505,7 +511,7 @@ img {
 
       }
 
-&__description {
+.large-hero__description {
       color: #FFF;
       font-size: 1.875rem;
       font-weight: 100;

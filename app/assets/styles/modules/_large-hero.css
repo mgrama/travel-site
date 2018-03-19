@@ -16,8 +16,9 @@
       margin: 0;
       font-size: 1.1rem;
 
+
       @mixin atSmall {
-        font-size: 2rem;
+        font-size: 2.0rem;
       }
 
       @mixin atMedium {
@@ -37,7 +38,7 @@
 
 
       }
-    }
+
 
     &__description {
       color: #FFF;
@@ -48,3 +49,4 @@
       margin-left: auto;
       margin-right: auto;
     }
+  }
